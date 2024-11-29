@@ -74,3 +74,28 @@
     align-items: center;
     gap: 16px;
 }
+
+.jumbotron__container__imagen {
+    border-radius: 15px;
+    gap: ;
+
+}
+
+.card__title {
+    font-size: 56px;
+    font-family: 700;
+    color: #D20062;
+    display: flex;
+    align-items: center;
+
+}
+
+.card__container {
+    display: flex;
+    gap: 20px;
+    justify-content: start;
+}
+
+.card { 
+    
+}

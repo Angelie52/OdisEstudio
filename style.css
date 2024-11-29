@@ -50,16 +50,27 @@
     align-items: center;
     padding: 0 0;
 }
-.jumbotron__title { /*este es el titulo del jumbotron*/
+.jumbotron__container {
+    gap: 52px;
+    display: flex;
+    flex-direction: column;
+}
+.jumbotron__container__title { /*este es el titulo del jumbotron*/
     font-size: 64px;
     font-weight: bold;
     color: #ffff;
 }
-.jumbotron__parrafo {
+.jumbotron__container__parrafo {
     font-size: 36px;
     font-weight: 700;
     color: #C4E4FF;
 }
-.jumbotron__imagen {
-    
+
+.jumbotron__container__button {
+    background: unset;
+    color: #ffff;
+    display: flex;
+
+    align-items: center;
+    gap: 16px;
 }

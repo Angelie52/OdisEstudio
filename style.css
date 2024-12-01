@@ -13,7 +13,7 @@
     padding: 15px 60px;
     background-color: #793153;
     border-radius: 15px;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(20px);
 }
 .navbar__nav { /* esta es la barra de navegacion*/
     display: flex;
@@ -70,32 +70,43 @@
     background: unset;
     color: #ffff;
     display: flex;
-
     align-items: center;
     gap: 16px;
 }
 
 .jumbotron__container__imagen {
-    border-radius: 15px;
-    gap: ;
+    padding: 100px 60px;
+    gap: 10px;
 
+}
+
+.jumbotron__container__imagen__style {
+    border-radius: 10px;
 }
 
 .card__title {
     font-size: 56px;
-    font-family: 700;
+    font-weight: bold;
     color: #D20062;
+    gap: 10px;
     display: flex;
-    align-items: center;
+    justify-content: center;
+    padding: 30px 107px;
 
 }
 
 .card__container {
     display: flex;
-    gap: 20px;
-    justify-content: start;
+    gap: 21px;
+    padding: 0 60px;
 }
 
-.card { 
-    
+.card__container__image {
+    border-radius: 10px;
 }
+
+.card__container__title {
+    font-size: 24px;
+    font-weight: bold;
+}
+

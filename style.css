@@ -108,5 +108,54 @@
 .card__container__title {
     font-size: 24px;
     font-weight: bold;
+    padding: 10px 0;
+    gap: 10px;
 }
 
+.card__container__puntuacion {
+    font-size: 12px;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+.card__container__parrafos {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 15px;
+    gap: 10px;
+}
+
+.card__container__parrafo {
+    font-size: 12px;
+}
+
+.card__container__buttons {
+    padding: 31px 31px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card__container__button__vermas {
+    padding: 0 62px;
+    border-radius: 10px;
+    background-color: #C4E4FF;
+    font-weight: bold;
+    color: #000;
+}
+
+.card__container__button__contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.card__container__button__contact__style {
+    padding: 10px 15px;
+    display: flex;
+    gap: 10px;
+    border-radius: 15px;
+    background-color: #D20062;
+    font-weight: bold;
+    color: #fff;
+}

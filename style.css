@@ -39,7 +39,6 @@
 }
 .background { /*este es el fondo del header y aqui ponemos los padding*/
     padding: 23px 60px;
-
     background-image: url(assets/Back.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -115,7 +114,7 @@
 .card__container__puntuacion {
     font-size: 12px;
     display: flex;
-    align-items: end;
+    align-items: center;
     justify-content: end;
 }
 
@@ -124,6 +123,12 @@
     flex-direction: column;
     padding: 10px 15px;
     gap: 10px;
+}
+
+.card__container__parrafos__2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .card__container__parrafo {
@@ -158,4 +163,82 @@
     background-color: #D20062;
     font-weight: bold;
     color: #fff;
+}
+
+.card__container__button__link {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+}
+
+.section__background {
+    padding: 143px 0;
+    gap: 10px;
+    background-image: url(assets/Background2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section__title {
+    display: flex;
+    align-items: center;
+    font-size: 56px;
+    font-weight: 700;
+    padding: 0 143px;
+}
+
+.section__button { 
+    padding: 10px 15px;
+    gap: 10px;
+    border-radius: 10px;
+    background-color: #D20062;
+    font-weight: bold;
+    color: #fff;
+}
+
+.footer__background {
+    background-color: #F781B8;
+}
+.footer__container { 
+    padding: 54px 107px;
+    display: flex;
+    justify-content: space-between;
+    align-items: normal;
+
+}
+
+.footer__container__list { 
+    display: flex;
+    justify-content: center;
+    gap: 57px;
+    list-style: none;
+    color: #fff;
+}
+.footer__container__list__link {
+    text-decoration: none;
+    color: #fff;
+} 
+
+.footer__container__contactos {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    color: #fff;
+}
+
+.footer__container__contactos__title {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.footer__container__iconos {
+    display: flex;
+    justify-content: center;
+    padding: 32px 32px;
+    gap: 23px;
 }

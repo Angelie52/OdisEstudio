@@ -1,0 +1,244 @@
+* { /* este es para limpiar la pagina para empezar con un lienzo limpio (seteado)*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+
+    padding: unset;
+    margin: unset;
+    border: unset;
+
+    box-sizing: border-box;
+}
+.navbar { /*este es el div del header*/
+    padding: 15px 60px;
+    background-color: #793153;
+    border-radius: 15px;
+    backdrop-filter: blur(20px);
+}
+.navbar__nav { /* esta es la barra de navegacion*/
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    gap: auto;
+}
+.navbar__nav__list { /*esta es la lista*/
+    display: flex;
+    gap: 105px;
+    list-style: none;
+}
+.navbar__nav__list li { /*estos los elementos de la lista*/
+    color: #ffff;
+    font-weight: bold;
+}
+.navbar__nav__button { /*este es el boton*/
+    padding: 19px 16px;
+    border-radius: 15px;
+    background-color: #D20062;
+    font-weight: bold;
+    color: #ffff;
+}
+.background { /*este es el fondo del header y aqui ponemos los padding*/
+    padding: 23px 60px;
+    background-image: url(assets/Back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.jumbotron { /*este es el jumbotron*/
+    display: flex;
+    align-items: center;
+    padding: 0 0;
+}
+.jumbotron__container {
+    gap: 52px;
+    display: flex;
+    flex-direction: column;
+}
+.jumbotron__container__title { /*este es el titulo del jumbotron*/
+    font-size: 64px;
+    font-weight: bold;
+    color: #ffff;
+}
+.jumbotron__container__parrafo {
+    font-size: 36px;
+    font-weight: 700;
+    color: #C4E4FF;
+}
+
+.jumbotron__container__button {
+    background: unset;
+    color: #ffff;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.jumbotron__container__imagen {
+    padding: 100px 60px;
+    gap: 10px;
+
+}
+
+.jumbotron__container__imagen__style {
+    border-radius: 10px;
+}
+
+.card__title {
+    font-size: 56px;
+    font-weight: bold;
+    color: #D20062;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 30px 107px;
+
+}
+
+.card__container {
+    display: flex;
+    gap: 21px;
+    padding: 0 60px;
+}
+
+.card__container__image {
+    border-radius: 10px;
+}
+
+.card__container__title {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px 0;
+    gap: 10px;
+}
+
+.card__container__puntuacion {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.card__container__parrafos {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 15px;
+    gap: 10px;
+}
+
+.card__container__parrafos__2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card__container__parrafo {
+    font-size: 12px;
+}
+
+.card__container__buttons {
+    padding: 31px 31px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card__container__button__vermas {
+    padding: 0 62px;
+    border-radius: 10px;
+    background-color: #C4E4FF;
+    font-weight: bold;
+    color: #000;
+}
+
+.card__container__button__contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.card__container__button__contact__style {
+    padding: 10px 15px;
+    display: flex;
+    gap: 10px;
+    border-radius: 15px;
+    background-color: #D20062;
+    font-weight: bold;
+    color: #fff;
+}
+
+.card__container__button__link {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+}
+
+.section__background {
+    padding: 143px 0;
+    gap: 10px;
+    background-image: url(assets/Background2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section__title {
+    display: flex;
+    align-items: center;
+    font-size: 56px;
+    font-weight: 700;
+    padding: 0 143px;
+}
+
+.section__button { 
+    padding: 10px 15px;
+    gap: 10px;
+    border-radius: 10px;
+    background-color: #D20062;
+    font-weight: bold;
+    color: #fff;
+}
+
+.footer__background {
+    background-color: #F781B8;
+}
+.footer__container { 
+    padding: 54px 107px;
+    display: flex;
+    justify-content: space-between;
+    align-items: normal;
+
+}
+
+.footer__container__list { 
+    display: flex;
+    justify-content: center;
+    gap: 57px;
+    list-style: none;
+    color: #fff;
+}
+.footer__container__list__link {
+    text-decoration: none;
+    color: #fff;
+} 
+
+.footer__container__contactos {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    color: #fff;
+}
+
+.footer__container__contactos__title {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.footer__container__iconos {
+    display: flex;
+    justify-content: center;
+    padding: 32px 32px;
+    gap: 23px;
+}
